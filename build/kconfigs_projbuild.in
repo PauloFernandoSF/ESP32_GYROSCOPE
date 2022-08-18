@@ -1,0 +1,7 @@
+source "/root/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "/root/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/root/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/root/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/root/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/components/I2Cbus/Kconfig.projbuild"
+source "/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/components/esp32-MPU-driver/Kconfig.projbuild"

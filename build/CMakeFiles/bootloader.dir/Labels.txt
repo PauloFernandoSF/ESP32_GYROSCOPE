@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/CMakeFiles/bootloader
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/CMakeFiles/bootloader.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/CMakeFiles/bootloader-complete.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/paulo/esp-idf/ESP32_RTC_GYROSCOPE/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

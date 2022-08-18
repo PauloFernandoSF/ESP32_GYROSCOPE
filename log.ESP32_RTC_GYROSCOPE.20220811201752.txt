@@ -1,0 +1,190 @@
+[0;31mE (255341) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (255341) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (255351) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (256361) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (256361) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (256371) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (257381) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (257381) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (257391) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (258401) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (258401) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (258411) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (259421) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (259421) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (259431) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6604
+ho 0 tail 12 room 4
+load:0x40078000,len:14780
+load:0x40080400,len:3792
+0x40080400: _init at ??:?
+entry 0x40080694
+[0;32mI (29) boot: ESP-IDF v4.4 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time 17:14:05[0m
+[0;32mI (29) boot: chip revision: 1[0m
+[0;32mI (32) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (102) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a084h ( 41092) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001a0ac vaddr=3ffb0000 size=023a4h (  9124) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001c458 vaddr=40080000 size=03bc0h ( 15296) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=18a18h (100888) map[0m
+[0;32mI (177) esp_image: segment 4: paddr=00038a40 vaddr=40083bc0 size=08d10h ( 36112) load[0m
+[0;32mI (192) esp_image: segment 5: paddr=00041758 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (198) boot: Disabling RNG early entropy source...[0m
+[0;32mI (212) cpu_start: Pro cpu up.[0m
+[0;32mI (212) cpu_start: Starting app cpu, entry point is 0x400810ec[0m
+0x400810ec: call_start_cpu1 at /root/esp/esp-idf/components/esp_system/port/cpu_start.c:156
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (226) cpu_start: Pro cpu start user code[0m
+[0;32mI (226) cpu_start: cpu freq: 160000000[0m
+[0;32mI (226) cpu_start: Application information:[0m
+[0;32mI (231) cpu_start: Project name:     ESP32_RTC_GYROSCOPE[0m
+[0;32mI (237) cpu_start: App version:      1[0m
+[0;32mI (241) cpu_start: Compile time:     Aug 10 2022 17:15:44[0m
+[0;32mI (247) cpu_start: ELF file SHA256:  b4e8849d88ae803e...[0m
+[0;32mI (253) cpu_start: ESP-IDF:          v4.4[0m
+[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (265) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFB2CF8 len 0002D308 (180 KiB): DRAM[0m
+[0;32mI (277) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (290) heap_init: At 4008C8D0 len 00013730 (77 KiB): IRAM[0m
+[0;32mI (298) spi_flash: detected chip: generic[0m
+[0;32mI (301) spi_flash: flash io: dio[0m
+[0;33mW (305) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (319) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+$ Inicializando Task do RTC
+[0;31mE (331) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (341) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (351) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (1361) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (1361) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (1371) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (2381) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (2381) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (2391) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (3401) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (3401) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (3411) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (4421) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (4421) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (4431) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (5441) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (5441) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (5451) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (6461) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (6461) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (6471) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (7481) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (7481) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (7491) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (8501) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (8501) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (8511) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (9521) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (9521) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (9531) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6604
+ho 0 tail 12 room 4
+load:0x40078000,len:14780
+load:0x40080400,len:3792
+0x40080400: _init at ??:?
+entry 0x40080694
+[0;32mI (29) boot: ESP-IDF v4.4 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time 17:14:05[0m
+[0;32mI (29) boot: chip revision: 1[0m
+[0;32mI (32) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (102) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a084h ( 41092) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001a0ac vaddr=3ffb0000 size=023a4h (  9124) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001c458 vaddr=40080000 size=03bc0h ( 15296) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=18a18h (100888) map[0m
+[0;32mI (177) esp_image: segment 4: paddr=00038a40 vaddr=40083bc0 size=08d10h ( 36112) load[0m
+[0;32mI (192) esp_image: segment 5: paddr=00041758 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (198) boot: Disabling RNG early entropy source...[0m
+[0;32mI (212) cpu_start: Pro cpu up.[0m
+[0;32mI (212) cpu_start: Starting app cpu, entry point is 0x400810ec[0m
+0x400810ec: call_start_cpu1 at /root/esp/esp-idf/components/esp_system/port/cpu_start.c:156
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (226) cpu_start: Pro cpu start user code[0m
+[0;32mI (226) cpu_start: cpu freq: 160000000[0m
+[0;32mI (226) cpu_start: Application information:[0m
+[0;32mI (231) cpu_start: Project name:     ESP32_RTC_GYROSCOPE[0m
+[0;32mI (237) cpu_start: App version:      1[0m
+[0;32mI (241) cpu_start: Compile time:     Aug 10 2022 17:15:44[0m
+[0;32mI (247) cpu_start: ELF file SHA256:  b4e8849d88ae803e...[0m
+[0;32mI (253) cpu_start: ESP-IDF:          v4.4[0m
+[0;32mI (258) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (265) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFB2CF8 len 0002D308 (180 KiB): DRAM[0m
+[0;32mI (277) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (290) heap_init: At 4008C8D0 len 00013730 (77 KiB): IRAM[0m
+[0;32mI (298) spi_flash: detected chip: generic[0m
+[0;32mI (301) spi_flash: flash io: dio[0m
+[0;33mW (305) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (319) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+$ Inicializando Task do RTC
+[0;31mE (331) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (341) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (351) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (1361) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (1361) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (1371) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (2381) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (2381) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (2391) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (3401) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (3401) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (3411) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (4421) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (4421) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (4431) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (5441) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (5441) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (5451) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (6461) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (6461) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (6471) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (7481) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (7481) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (7491) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m
+[0;31mE (8501) I2Cbus: [port:0, slave:0x68] Failed to read 1 bytes from register 0x75, error: 0xFFFFFFFF[0m
+[0;31mE (8501) MPU6050: func:uint8_t mpud::MPU::whoAmI() @ line:162, expr:"readByte(regs::WHO_AM_I, buffer)", error:0xFFFFFFFF [0m
+[0;31mE (8511) MPU6050: func:esp_err_t mpud::MPU::testConnection() @ line:143, expr:"lastError()", error:0xFFFFFFFF [0m

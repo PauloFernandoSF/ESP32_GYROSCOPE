@@ -1,0 +1,2 @@
+/root/.espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp32-MPU-driver.a CMakeFiles/__idf_esp32-MPU-driver.dir/src/MPU.cpp.obj
+/root/.espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp32-MPU-driver.a
